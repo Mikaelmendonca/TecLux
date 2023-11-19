@@ -1,0 +1,76 @@
+* {
+    padding:0;
+    margin:0;
+    border:0
+    }
+
+@font-face {
+    font-family: 'Stencil Std';
+    src: url('Components/font/Viga-Regular.ttf') format('truetype');
+}
+
+body{
+    background-color: #465dda;
+    font-family: 'tenciSl Std';
+    font-size: 20px;
+}
+
+header{
+    background-color: #0a1a77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 106px;
+    height: 106px;
+    top: 9px;
+    left: 81px;
+}
+
+li{
+    display: inline-block;
+    margin: 40px;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+li:hover{
+    color: #9aa9ff;
+    transition: 0.3s all;
+}
+
+.btn{
+    background-color: #516bff;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.btn:hover{
+    background-color: #516bff;
+    transition: 0.3s all;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 15px;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
