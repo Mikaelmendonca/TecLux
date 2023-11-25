@@ -67,9 +67,9 @@ li:hover{
 .Produtos{
     
     font-size: 36px;
-    font-family: 'Arial', sans-serif; /* Escolha uma fonte chamativa */
+    font-family: 'Arial', sans-serif; 
     text-align: center;
-    animation: piscar 1s infinite alternate; /* Adicionando uma animação de piscar */
+    animation: piscar 1s infinite alternate; 
     color: #fff;
     text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9;
     margin: 10px;
